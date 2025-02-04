@@ -1,1 +1,7 @@
 Please ensure that all necessary libraries are installed in your venv folder before running.
+ - Flask
+ - PyJWT
+ - Cryptography
+
+After creating and activating your virtual environment, enter:
+pip install Flask PyJWT cryptography
