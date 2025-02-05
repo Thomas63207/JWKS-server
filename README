@@ -5,3 +5,9 @@ Please ensure that all necessary libraries are installed in your venv folder bef
 
 After creating and activating your virtual environment, enter:
 pip install Flask PyJWT cryptography
+The server can now be started using "python server.py"
+
+To run the test suite, please install the following additional library
+ - pytest request
+pip install pytest request
+To run the test suite, use "pytest test_server.py"
